@@ -1,0 +1,11 @@
+body {
+    display: flex;
+    justify-content: center;
+    font-family: 'Press Start 2P', cursive;
+}
+
+#root{
+    display: flex;;
+    flex-direction: column;
+    gap: 30px;
+}

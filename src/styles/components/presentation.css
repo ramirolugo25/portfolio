@@ -1,0 +1,15 @@
+#profile-picture{
+    border: 4px solid black;
+    image-rendering: pixelated;
+    width: 400px;
+    height: auto;
+}
+
+#presentation-text{
+    color: rgb(70, 70, 70);
+}
+
+#presentation-text strong {
+    color: black;
+}
+
