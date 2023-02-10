@@ -10,6 +10,7 @@ export const Presentation = () => {
             
             <div className='image-container'>
                 <img className='profile-picture' alt="Profile Picture" src="src/images/image-ramiro-lugo.jpg"></img>
+                <button type="button" className="nes-btn is-success" onClick={() => setHiddenBallon(true)}>Info</button>
             </div>
 
             <div className='right-container'>
@@ -20,7 +21,6 @@ export const Presentation = () => {
                             Hi, I am <strong>Ramiro Lugo</strong>
                         </p>
                     </div>
-                    <button type="button" className="nes-btn is-success" onClick={() => setHiddenBallon(true)}>Info</button>
                 </div>
 
                 <div className={hiddenBallon ? 'ballon-right-container' : 'hidden'} >

@@ -2,35 +2,40 @@ import '../styles/components/skills.css';
 
 export const Skills = () => {
   return (
-    <div id='container-skills'>
-      <div id="skills-title">
+    <div className='container-skills'>
+      <div className="skills-title">
         <span className="nes-text is-primary">#</span>
-        <p>Skills</p>
+        <p> Skills</p>
       </div>
 
-      <div id='container-tools' className="nes-container with-title">
-        <p className="title">Main Tools</p>
-        <div id='container-images'>
-          <div className='logo'>
-            <img alt="" src="src/images/logo-html.png" />
-            <p>HTML</p>
-          </div>
+      <div className='first-container'>
+        <i class="nes-mario"></i>
 
-          <div className='logo'>
-            <img alt="" src="src/images/logo-css.png" />
-            <p>CSS</p>
-          </div>
+        <div className="nes-container with-title is-centered container-tools">
+          <p className="title">Main Tools</p>
+          <div className='container-images'>
+            <div className='logo'>
+              <img alt="" src="src/images/logo-html.png" />
+              <p>HTML</p>
+            </div>
 
-          <div className='logo'>
-            <img alt="" src="src/images/logo-javascript.png" />
-            <p>JavaScript</p>
+            <div className='logo'>
+              <img alt="" src="src/images/logo-css.png" />
+              <p>CSS</p>
+            </div>
+
+            <div className='logo'>
+              <img alt="" src="src/images/logo-javascript.png" />
+              <p>JavaScript</p>
+            </div>
           </div>
         </div>
       </div>
 
-      <div id='container-tools' className="nes-container with-title">
+
+      <div className="nes-container with-title is-centered container-tools">
         <p className="title">Libraries/Frameworks</p>
-        <div id='container-images'>
+        <div className='container-images'>
           <div className='logo'>
             <img alt="" src="src/images/logo-jquery.png" />
             <p>jQuery</p>
@@ -45,9 +50,9 @@ export const Skills = () => {
       </div>
 
 
-      <div id='container-tools' className="nes-container with-title">
+      <div className="nes-container with-title is-centered container-tools">
         <p className="title">Test</p>
-        <div id='container-images'>
+        <div className='container-images'>
           <div className='logo'>
             <img alt="" src="src/images/logo-jest.png" />
             <p>Jest</p>
@@ -61,9 +66,9 @@ export const Skills = () => {
         </div>
       </div>
 
-      <div id='container-tools' className="nes-container with-title">
+      <div className="nes-container with-title is-centered container-tools">
         <p className="title">Other Tools</p>
-        <div id='container-images'>
+        <div className='container-images'>
           <div className='logo'>
             <img alt="" src="src/images/logo-eslint.png" />
             <p>ESLint</p>
@@ -91,6 +96,7 @@ export const Skills = () => {
 
         </div>
       </div>
+      <p>and more...</p>
     </div>
 
   )

@@ -9,7 +9,10 @@
 
 .image-container{
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+    padding-top: 55px;
 }
 
 .profile-picture{
