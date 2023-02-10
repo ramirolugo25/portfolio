@@ -4,8 +4,9 @@ body {
     font-family: 'Press Start 2P', cursive;
 }
 
-#root{
-    display: flex;;
+#root {
+    display: flex;
+    width: 1040px;
     flex-direction: column;
     gap: 30px;
 }

@@ -1,3 +1,47 @@
 #projects-title{
     display: flex;
 }
+
+#projects-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.project-container{ 
+    width: 250px;
+    height: 150px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+
+/* #pokedex-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+#memotest-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+} */
+
+#memotest-container img{
+    width: 150px;
+}
+
+#youtube-container img {
+    width: 90px;
+}

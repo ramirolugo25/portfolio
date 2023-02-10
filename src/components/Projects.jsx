@@ -9,9 +9,29 @@ export const Projects = () => {
                 <p>Project</p>
             </div>
 
-            <div class="nes-container with-title is-centered">
-                <p class="title">Container.is-centered</p>
-                <p>Good morning. Thou hast had a good night's sleep, I hope.</p>
+            <div id='projects-container' className="nes-container with-title is-centered">
+                
+                <div className='project-container'>
+
+                </div>
+                <div id='pokedex-container' className='project-container'>
+                    <i className="nes-pokeball"></i>
+                    <p>Pokédex</p>
+                </div>
+                <div id='memotest-container' className='project-container'>
+                    <img src="src/images/logo-thesimpsons.png" alt="" />
+                    <p>Memotest</p>
+                </div>
+                <div id='youtube-container' className='project-container'>
+                    <img src="src/images/logo-youtube.png" alt="" />
+                    <p>Youtube Clone</p>
+                </div>
+                <div className='project-container'>
+                    
+                </div>
+                <div className='project-container'>
+                    
+                </div>
             </div>
         </div>
 
