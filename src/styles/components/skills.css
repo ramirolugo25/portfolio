@@ -1,31 +1,36 @@
-.container-skills {
+#skills__container-skills {
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
 
-.skills-title {
+#skills__title {
     display: flex;
     font-size: 20px;
 }
 
-.first-container {
+#skills__first-container {
     display: flex;
     flex-direction: column;
 }
 
-.container-tools img {
+#skills__icons-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.skills__container-tools img {
     width: 50px;
 }
 
-.container-images {
+.skills__container-images {
     display: flex;
     justify-content: space-around;
     align-items: center;
 
 }
 
-.logo {
+.skills__logo {
     display: flex;
     flex-direction: column;
     align-items: center;

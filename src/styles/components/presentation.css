@@ -2,12 +2,12 @@
     display: none;
 }
 
-.profile-container{
+#presentation__profile-container{
     display: flex;
     height: 510px;
 }
 
-.image-container{
+#presentation__image-container{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -15,36 +15,36 @@
     padding-top: 55px;
 }
 
-.profile-picture{
+#presentation__profile-picture{
     width: 400px;
     height: auto;
     border: 4px solid black;
 }
 
-.right-container{
+#presentation__right-container{
     width: 100%;
 }
 
-.ballon-left-first-container{
+#presentation__ballon-left-first-container{
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-#ballon-left-first{
+#presentation__ballon-left-first{
     animation-delay: 0.5s;
 }
 
-.ballon-right-container{
+.presentation__ballon-right-container{
     display: flex;
     align-items: center;
     justify-content: end;
 }
 
-#ballon-right{
+#presentation__ballon-right{
     animation-delay: 0s;
 }
 
-#ballon-left-second{
+#presentation__ballon-left-second{
     animation-delay: 1s;
 }

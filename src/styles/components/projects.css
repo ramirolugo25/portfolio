@@ -1,0 +1,53 @@
+#projects__title {
+    display: flex;
+    font-size: 20px;
+}
+
+#projects__main-container {
+    display: flex;
+    flex-direction: column;
+}
+
+#projects__icons-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+#projects__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.projects__project-container {
+    width: 220px;
+    height: 240px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.projects__project-container img {
+    height: 37px;
+}
+
+.projects__bottom-container {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.projects__badge {
+    display: flex;
+    justify-content: center;
+}
+
+
+#projects__exchange-house-container p {
+    font-size: 15px;
+}

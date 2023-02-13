@@ -1,4 +1,4 @@
-#buttons-container {
+#header__buttons {
     display: flex;
     width: 100%;
     position: sticky;
@@ -13,6 +13,6 @@
     padding-bottom: 20px;
 }
 
-#buttons-container button {
+#header__buttons button {
     width: 200px;
 }
