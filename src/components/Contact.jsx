@@ -1,20 +1,20 @@
 import '../styles/components/contact.css';
 
-export const Contact = () => {
+export const Contact = ({darkTheme}) => {
     return (
         <div id='contact__container'>
             <div id="contact__title">
                 <span className="nes-text is-primary">#</span>
-                <p>Contact</p>
+                <p className={darkTheme === true ? 'text-dark-theme' : ''}>Contact</p>
             </div>
 
-            <div id='contact__icons' class="nes-container with-title is-centered">
-                <i class="nes-icon twitter is-large"></i>
-                <i class="nes-icon instagram is-large"></i>
-                <i class="nes-icon github is-large"></i>
-                <i class="nes-icon gmail is-large"></i>
-                <i class="nes-icon linkedin is-large"></i>
-                <i class="nes-icon whatsapp is-large"></i>
+            <div id='contact__icons' className={darkTheme === true ? 'nes-container with-title is-centered is-dark' : 'nes-container with-title is-centered'}>
+                <i className="nes-icon twitter is-medium"></i>
+                <i className="nes-icon instagram is-medium"></i>
+                <i className="nes-icon github is-medium"></i>
+                <i className="nes-icon gmail is-medium"></i>
+                <i className="nes-icon linkedin is-medium"></i>
+                <i className="nes-icon whatsapp is-medium"></i>
             </div>
 
         </div>

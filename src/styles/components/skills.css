@@ -1,12 +1,18 @@
+
 #skills__container-skills {
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
 
+.skills__nes-container{
+    transition-duration: 1s;
+}
+
 #skills__title {
     display: flex;
     font-size: 20px;
+    transition-duration: 1s;
 }
 
 #skills__first-container {
@@ -20,11 +26,13 @@
 }
 
 .skills__container-tools img {
-    width: 50px;
+    height: 50px;
 }
 
 .skills__container-images {
     display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
     justify-content: space-around;
     align-items: center;
 

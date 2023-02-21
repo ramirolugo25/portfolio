@@ -19,17 +19,27 @@
     align-items: center;
     gap: 20px;
     flex-wrap: wrap;
+    transition-duration: 1s;
 }
 
 .projects__project-container {
     width: 220px;
     height: 240px;
-    border: 2px solid black;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 5px;
+}
+
+.projects__project-container-black-border{
+    border: 2px solid black;
+    transition-duration: 1s;
+}
+
+.projects__project-container-white-border{
+    border: 2px solid white;
+    transition-duration: 1s;
 }
 
 .projects__project-container img {
