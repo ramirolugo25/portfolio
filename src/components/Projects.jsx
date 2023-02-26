@@ -1,6 +1,11 @@
+import { useContext } from 'react';
+import { ThemeContext } from '../context/ThemeContext';
 import '../styles/components/projects.css';
 
-export const Projects = ({darkTheme}) => {
+export const Projects = () => {
+    
+    const {darkTheme} = useContext(ThemeContext);
+    
     return (
 
         <div>
@@ -25,10 +30,10 @@ export const Projects = ({darkTheme}) => {
                             <p>Marvel Comics</p>
                         </div>
                         <div className='projects__bottom-container'>
-                            <a href="#" className="nes-badge projects__badge">
+                            <a href="https://marvel-comics-rl.netlify.app/" target='_blank' className="nes-badge projects__badge">
                                 <span className="is-primary">Deploy</span>
                             </a>
-                            <a href="#" className="nes-badge projects__badge">
+                            <a href="https://github.com/ramirolugo25/Marvel-Comics" target='_blank' className="nes-badge projects__badge">
                                 <span className="is-success">Repository</span>
                             </a>
                         </div>
@@ -40,10 +45,10 @@ export const Projects = ({darkTheme}) => {
                             <p>Pokédex</p>
                         </div>
                         <div className='projects__bottom-container'>
-                            <a href="#" className="nes-badge projects__badge">
+                            <a href="https://ramirolugo25.github.io/Pokedex/" target='_blank' className="nes-badge projects__badge">
                                 <span className="is-primary">Deploy</span>
                             </a>
-                            <a href="#" className="nes-badge projects__badge">
+                            <a href="https://github.com/ramirolugo25/Pokedex" target='_blank' className="nes-badge projects__badge">
                                 <span className="is-success">Repository</span>
                             </a>
                         </div>
@@ -56,10 +61,10 @@ export const Projects = ({darkTheme}) => {
                             <p>Memotest</p>
                         </div>
                         <div className='projects__bottom-container'>
-                            <a href="#" className="nes-badge projects__badge">
+                            <a href="https://ramirolugo25.github.io/Memotest/" target='_blank' className="nes-badge projects__badge">
                                 <span className="is-primary">Deploy</span>
                             </a>
-                            <a href="#" className="nes-badge projects__badge">
+                            <a href="https://github.com/ramirolugo25/Memotest" target='_blank' className="nes-badge projects__badge">
                                 <span className="is-success">Repository</span>
                             </a>
                         </div>
@@ -72,10 +77,10 @@ export const Projects = ({darkTheme}) => {
                             <p>YouTube Clone</p>
                         </div>
                         <div className='projects__bottom-container'>
-                            <a href="#" className="nes-badge projects__badge">
+                            <a href="https://ramirolugo25.github.io/YouTube-Responsive/" target='_blank' className="nes-badge projects__badge">
                                 <span className="is-primary">Deploy</span>
                             </a>
-                            <a href="#" className="nes-badge projects__badge">
+                            <a href="https://github.com/ramirolugo25/YouTube-Responsive" target='_blank' className="nes-badge projects__badge">
                                 <span className="is-success">Repository</span>
                             </a>
                         </div>
@@ -88,10 +93,10 @@ export const Projects = ({darkTheme}) => {
                             <p>Simon Dice</p>
                         </div>
                         <div className='projects__bottom-container'>
-                            <a href="#" className="nes-badge projects__badge">
+                            <a href="https://ramirolugo25.github.io/Simon-dice/" target='_blank' className="nes-badge projects__badge">
                                 <span className="is-primary">Deploy</span>
                             </a>
-                            <a href="#" className="nes-badge projects__badge">
+                            <a href="https://github.com/ramirolugo25/Simon-dice" target='_blank' className="nes-badge projects__badge">
                                 <span className="is-success">Repository</span>
                             </a>
                         </div>
@@ -104,10 +109,10 @@ export const Projects = ({darkTheme}) => {
                             <p>Exchange house</p>
                         </div>
                         <div className='projects__bottom-container'>
-                            <a href="#" className="nes-badge projects__badge">
+                            <a href="https://ramirolugo25.github.io/Casa-De-Cambio/" target='_blank' className="nes-badge projects__badge">
                                 <span className="is-primary">Deploy</span>
                             </a>
-                            <a href="#" className="nes-badge projects__badge">
+                            <a href="https://github.com/ramirolugo25/Casa-De-Cambio" target='_blank' className="nes-badge projects__badge">
                                 <span className="is-success">Repository</span>
                             </a>
                         </div>

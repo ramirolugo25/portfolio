@@ -1,8 +1,10 @@
-import { useEffect, useState } from 'react';
+import { useContext, useEffect, useState } from 'react';
+import { ThemeContext } from '../context/ThemeContext';
 import '../styles/components/presentation.css';
 
-export const Presentation = ({darkTheme}) => {
+export const Presentation = () => {
 
+    const {darkTheme} = useContext(ThemeContext);
     const [hiddenBallon, setHiddenBallon] = useState(false);
     const [width, setWidth] = useState(window.outerWidth);
 
@@ -46,7 +48,7 @@ export const Presentation = ({darkTheme}) => {
                             <div className={hiddenBallon ? '' : 'hidden'}>
                                 <div id='presentation__ballon-left-second' className={darkTheme === true ? 'nes-balloon from-left animate__animated animate__fadeInUp is-dark' : 'nes-balloon from-left animate__animated animate__fadeInUp'}>
                                     <p>
-                                        An advanced systems engineering student of information and developer front-end, learning back-end and constantly acquiring new knowledge. For more info <a href="">contact me.</a> 
+                                        An advanced systems engineering student of information and developer front-end, learning back-end and constantly acquiring new knowledge. For more info <a href="#contact__container">contact me.</a> 
                                     </p>
                                 </div>
                             </div>
@@ -61,7 +63,7 @@ export const Presentation = ({darkTheme}) => {
 
 
                         <div id='presentation__description' className={darkTheme === true ? 'nes-container is-rounded is-dark' : 'nes-container is-rounded'}>
-                            <p>Hi, I am <strong>Ramiro Lugo</strong>. An advanced systems engineering student of information and developer front-end, learning back-end and constantly acquiring new knowledge. For more info <a href="">contact me.</a> </p>
+                            <p>Hi, I am <strong>Ramiro Lugo</strong>. An advanced systems engineering student of information and developer front-end, learning back-end and constantly acquiring new knowledge. For more info <a href="#contact__container">contact me.</a> </p>
                         </div>
 
                     </div>

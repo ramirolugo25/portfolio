@@ -1,6 +1,11 @@
+import { useContext } from 'react';
+import { ThemeContext } from '../context/ThemeContext';
 import '../styles/components/skills.css';
 
-export const Skills = ({darkTheme}) => {
+export const Skills = () => {
+  
+  const {darkTheme} = useContext(ThemeContext);
+  
   return (
     <div id='skills__container-skills'>
       <div id="skills__title" className={darkTheme === true ? 'text-dark-theme' : ''}>
