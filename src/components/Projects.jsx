@@ -26,7 +26,7 @@ export const Projects = () => {
 
                     <div className={darkTheme === true ? 'projects__project-container projects__project-container-white-border' : 'projects__project-container projects__project-container-black-border'}>
                         <div>
-                            <img src="src/images/logo-marvel.png" alt="Logo Marvel" />
+                            <img src="/logo-marvel.png" alt="Logo Marvel" />
                             <p>Marvel Comics</p>
                         </div>
                         <div className='projects__bottom-container'>
@@ -41,7 +41,7 @@ export const Projects = () => {
 
                     <div className={darkTheme === true ? 'projects__project-container projects__project-container-white-border' : 'projects__project-container projects__project-container-black-border'}>
                         <div>
-                            <img src="src/images/logo-pokedex.png" alt="Logo Pokédex" />
+                            <img src="/logo-pokedex.png" alt="Logo Pokédex" />
                             <p>Pokédex</p>
                         </div>
                         <div className='projects__bottom-container'>
@@ -57,7 +57,7 @@ export const Projects = () => {
 
                     <div className={darkTheme === true ? 'projects__project-container projects__project-container-white-border' : 'projects__project-container projects__project-container-black-border'}>
                         <div>
-                            <img src="src/images/logo-thesimpsons.png" alt="Logo The Simpsons" />
+                            <img src="/logo-thesimpsons.png" alt="Logo The Simpsons" />
                             <p>Memotest</p>
                         </div>
                         <div className='projects__bottom-container'>
@@ -73,7 +73,7 @@ export const Projects = () => {
 
                     <div className={darkTheme === true ? 'projects__project-container projects__project-container-white-border' : 'projects__project-container projects__project-container-black-border'}>
                         <div>
-                            <img src="src/images/logo-youtube.png" alt="Logo YouTube" />
+                            <img src="/logo-youtube.png" alt="Logo YouTube" />
                             <p>YouTube Clone</p>
                         </div>
                         <div className='projects__bottom-container'>
@@ -89,7 +89,7 @@ export const Projects = () => {
 
                     <div className={darkTheme === true ? 'projects__project-container projects__project-container-white-border' : 'projects__project-container projects__project-container-black-border'}>
                         <div>
-                            <img src="src/images/logo-simon-dice.png" alt="Logo Simon dice" />
+                            <img src="/logo-simon-dice.png" alt="Logo Simon dice" />
                             <p>Simon Dice</p>
                         </div>
                         <div className='projects__bottom-container'>
@@ -105,7 +105,7 @@ export const Projects = () => {
 
                     <div id='projects__exchange-house-container' className={darkTheme === true ? 'projects__project-container projects__project-container-white-border' : 'projects__project-container projects__project-container-black-border'}>
                         <div>
-                            <img src="src/images/logo-dollar.png" alt="Logo Dollar" />
+                            <img src="/logo-dollar.png" alt="Logo Dollar" />
                             <p>Exchange house</p>
                         </div>
                         <div className='projects__bottom-container'>

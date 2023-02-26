@@ -25,7 +25,7 @@ export const Presentation = () => {
                     <div id='presentation__profile-container'>
 
                         <div id='presentation__image-container'>
-                            <img id='presentation__profile-picture' alt="Profile Picture" src="src/images/image-ramiro-lugo.jpg"></img>
+                            <img id='presentation__profile-picture' alt="Profile Picture" src="/image-ramiro-lugo.jpg"></img>
                             <button type="button" className={hiddenBallon === true ? 'nes-btn is-disabled' : 'nes-btn is-success'} onClick={() => setHiddenBallon(true)}>Info</button>
                         </div>
 
@@ -59,7 +59,7 @@ export const Presentation = () => {
                     :
                     <div id='presentation__profile-container'>
 
-                        <img id='presentation__profile-picture' alt="Profile Picture" src="src/images/image-ramiro-lugo.jpg"></img>
+                        <img id='presentation__profile-picture' alt="Profile Picture" src="/image-ramiro-lugo.jpg"></img>
 
 
                         <div id='presentation__description' className={darkTheme === true ? 'nes-container is-rounded is-dark' : 'nes-container is-rounded'}>

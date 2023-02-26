@@ -24,17 +24,17 @@ export const Skills = () => {
           <p className="title">Main Tools</p>
           <div className='skills__container-images'>
             <div className='skills__logo'>
-              <img alt="" src="src/images/logo-html.png" />
+              <img alt="" src="/logo-html.png" />
               <p>HTML</p>
             </div>
 
             <div className='skills__logo'>
-              <img alt="" src="src/images/logo-css.png" />
+              <img alt="" src="/logo-css.png" />
               <p>CSS</p>
             </div>
 
             <div className='skills__logo'>
-              <img alt="" src="src/images/logo-javascript.png" />
+              <img alt="" src="/logo-javascript.png" />
               <p>JavaScript</p>
             </div>
           </div>
@@ -46,12 +46,12 @@ export const Skills = () => {
         <p className="title">Libraries/Frameworks</p>
         <div className='skills__container-images'>
           <div className='skills__logo'>
-            <img alt="" src="src/images/logo-jquery.png" />
+            <img alt="" src="/logo-jquery.png" />
             <p>jQuery</p>
           </div>
 
           <div className='skills__logo'>
-            <img alt="" src="src/images/logo-react.png" />
+            <img alt="" src="/logo-react.png" />
             <p>React</p>
           </div>
 
@@ -63,12 +63,12 @@ export const Skills = () => {
         <p className="title">Test</p>
         <div className='skills__container-images'>
           <div className='skills__logo'>
-            <img alt="" src="src/images/logo-jest.png" />
+            <img alt="" src="/logo-jest.png" />
             <p>Jest</p>
           </div>
 
           <div className='skills__logo'>
-            <img alt="" src="src/images/logo-cypress.jpg" />
+            <img alt="" src="/logo-cypress.jpg" />
             <p>Cypress</p>
           </div>
 
@@ -79,27 +79,27 @@ export const Skills = () => {
         <p className="title">Other Tools</p>
         <div className='skills__container-images'>
           <div className='skills__logo'>
-            <img alt="" src="src/images/logo-eslint.png" />
+            <img alt="" src="/logo-eslint.png" />
             <p>ESLint</p>
           </div>
 
           <div className='skills__logo'>
-            <img alt="" src="src/images/logo-bootstrap.png" />
+            <img alt="" src="/logo-bootstrap.png" />
             <p>Bootstrap</p>
           </div>
 
           <div className='skills__logo'>
-            <img alt="" src="src/images/logo-npm.png" />
+            <img alt="" src="/logo-npm.png" />
             <p>Npm</p>
           </div>
 
           <div className='skills__logo'>
-            <img alt="" src="src/images/logo-git.png" />
+            <img alt="" src="/logo-git.png" />
             <p>Git</p>
           </div>
 
           <div className='skills__logo'>
-            <img alt="" src="src/images/logo-github.png" />
+            <img alt="" src="/logo-github.png" />
             <p>GitHub</p>
           </div>
 
