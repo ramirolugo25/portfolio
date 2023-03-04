@@ -25,7 +25,7 @@ export const Presentation = () => {
                     <div id='presentation__profile-container'>
 
                         <div id='presentation__image-container'>
-                            <img id='presentation__profile-picture' alt="Profile Picture" src="/image-ramiro-lugo.jpg"></img>
+                            <img id='presentation__profile-picture' className={darkTheme === true ? 'presentation__white-border' : 'presentation__dark-border'} alt="Profile Picture" src={darkTheme ? '/image-ramiro-lugo-dark.jpg' : '/image-ramiro-lugo.jpg'}></img>
                             <button type="button" className={hiddenBallon === true ? 'nes-btn is-disabled' : 'nes-btn is-success'} onClick={() => setHiddenBallon(true)}>Info</button>
                         </div>
 
@@ -48,7 +48,7 @@ export const Presentation = () => {
                             <div className={hiddenBallon ? '' : 'hidden'}>
                                 <div id='presentation__ballon-left-second' className={darkTheme === true ? 'nes-balloon from-left animate__animated animate__fadeInUp is-dark' : 'nes-balloon from-left animate__animated animate__fadeInUp'}>
                                     <p>
-                                        An advanced systems engineering student of information and developer front-end, learning back-end and constantly acquiring new knowledge. For more info <a href="#contact__container">contact me.</a> 
+                                        Advanced information systems engineering student and front-end developer, learning back-end and constantly acquiring new knowledge. For more info <a href="#contact__container">contact me.</a> 
                                     </p>
                                 </div>
                             </div>
@@ -59,11 +59,11 @@ export const Presentation = () => {
                     :
                     <div id='presentation__profile-container'>
 
-                        <img id='presentation__profile-picture' alt="Profile Picture" src="/image-ramiro-lugo.jpg"></img>
+                        <img id='presentation__profile-picture' className={darkTheme === true ? 'presentation__white-border' : 'presentation__dark-border'} alt="Profile Picture" src={darkTheme ? '/image-ramiro-lugo-dark.jpg' : '/image-ramiro-lugo.jpg'}></img>
 
 
                         <div id='presentation__description' className={darkTheme === true ? 'nes-container is-rounded is-dark' : 'nes-container is-rounded'}>
-                            <p>Hi, I am <strong>Ramiro Lugo</strong>. An advanced systems engineering student of information and developer front-end, learning back-end and constantly acquiring new knowledge. For more info <a href="#contact__container">contact me.</a> </p>
+                            <p>Hi, I am <strong>Ramiro Lugo</strong>. Advanced information systems engineering student and front-end developer, learning back-end and constantly acquiring new knowledge. For more info <a href="#contact__container">contact me.</a> </p>
                         </div>
 
                     </div>

@@ -18,7 +18,15 @@
 #presentation__profile-picture{
     width: 400px;
     height: auto;
+    transition-duration: 1s;
+}
+
+.presentation__dark-border{
     border: 4px solid black;
+}
+
+.presentation__white-border{
+    border: 4px solid rgb(255, 255, 255);
 }
 
 #presentation__right-container{
@@ -50,6 +58,10 @@
 #presentation__ballon-left-second{
     animation-delay: 1s;
     transition-duration: 1s;
+}
+
+#presentation__description{
+    width: 90%;
 }
 
 @media (max-width: 870px){
@@ -100,7 +112,6 @@
     #presentation__profile-picture{
         width: 60%;
         height: auto;
-        border: 4px solid black;
     }
     
 }
