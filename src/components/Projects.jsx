@@ -3,14 +3,14 @@ import { ThemeContext } from '../context/ThemeContext';
 import '../styles/components/projects.css';
 
 export const Projects = () => {
-    
-    const {darkTheme} = useContext(ThemeContext);
-    
+
+    const { darkTheme } = useContext(ThemeContext);
+
     return (
 
         <div>
 
-            <div id="projects__title" className={darkTheme === true ? 'text-dark-theme' : ''}>
+            <div id="projects__title" className={darkTheme ? 'text-dark-theme' : ''}>
                 <span className="nes-text is-primary">#</span>
                 <p>Projects</p>
             </div>
@@ -22,9 +22,9 @@ export const Projects = () => {
                     <i className="nes-pokeball"></i>
                 </div>
 
-                <div id='projects__container' className={darkTheme === true ? 'nes-container with-title is-centered is-dark' : 'nes-container with-title is-centered'}>
+                <div id='projects__container' className={darkTheme ? 'nes-container with-title is-centered is-dark' : 'nes-container with-title is-centered'}>
 
-                    <div className={darkTheme === true ? 'projects__project-container projects__project-container-white-border' : 'projects__project-container projects__project-container-black-border'}>
+                    <div className={darkTheme ? 'projects__project-container projects__project-container-white-border' : 'projects__project-container projects__project-container-black-border'}>
                         <div>
                             <img src="/logo-marvel.png" alt="Logo Marvel" />
                             <p>Marvel Comics</p>
@@ -39,7 +39,7 @@ export const Projects = () => {
                         </div>
                     </div>
 
-                    <div className={darkTheme === true ? 'projects__project-container projects__project-container-white-border' : 'projects__project-container projects__project-container-black-border'}>
+                    <div className={darkTheme ? 'projects__project-container projects__project-container-white-border' : 'projects__project-container projects__project-container-black-border'}>
                         <div>
                             <img src="/logo-pokedex.png" alt="Logo Pokédex" />
                             <p>Pokédex</p>
@@ -55,7 +55,7 @@ export const Projects = () => {
                     </div>
 
 
-                    <div className={darkTheme === true ? 'projects__project-container projects__project-container-white-border' : 'projects__project-container projects__project-container-black-border'}>
+                    <div className={darkTheme ? 'projects__project-container projects__project-container-white-border' : 'projects__project-container projects__project-container-black-border'}>
                         <div>
                             <img src="/logo-thesimpsons.png" alt="Logo The Simpsons" />
                             <p>Memotest</p>
@@ -71,7 +71,7 @@ export const Projects = () => {
                     </div>
 
 
-                    <div className={darkTheme === true ? 'projects__project-container projects__project-container-white-border' : 'projects__project-container projects__project-container-black-border'}>
+                    <div className={darkTheme ? 'projects__project-container projects__project-container-white-border' : 'projects__project-container projects__project-container-black-border'}>
                         <div>
                             <img src="/logo-youtube.png" alt="Logo YouTube" />
                             <p>YouTube Clone</p>
@@ -87,7 +87,7 @@ export const Projects = () => {
                     </div>
 
 
-                    <div className={darkTheme === true ? 'projects__project-container projects__project-container-white-border' : 'projects__project-container projects__project-container-black-border'}>
+                    <div className={darkTheme ? 'projects__project-container projects__project-container-white-border' : 'projects__project-container projects__project-container-black-border'}>
                         <div>
                             <img src="/logo-simon-dice.png" alt="Logo Simon dice" />
                             <p>Simon Dice</p>
@@ -103,7 +103,7 @@ export const Projects = () => {
                     </div>
 
 
-                    <div id='projects__exchange-house-container' className={darkTheme === true ? 'projects__project-container projects__project-container-white-border' : 'projects__project-container projects__project-container-black-border'}>
+                    <div id='projects__exchange-house-container' className={darkTheme ? 'projects__project-container projects__project-container-white-border' : 'projects__project-container projects__project-container-black-border'}>
                         <div>
                             <img src="/logo-dollar.png" alt="Logo Dollar" />
                             <p>Exchange house</p>

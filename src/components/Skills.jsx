@@ -3,12 +3,12 @@ import { ThemeContext } from '../context/ThemeContext';
 import '../styles/components/skills.css';
 
 export const Skills = () => {
-  
-  const {darkTheme} = useContext(ThemeContext);
-  
+
+  const { darkTheme } = useContext(ThemeContext);
+
   return (
     <div id='skills__container-skills'>
-      <div id="skills__title" className={darkTheme === true ? 'text-dark-theme' : ''}>
+      <div id="skills__title" className={darkTheme ? 'text-dark-theme' : ''}>
         <span className="nes-text is-primary">#</span>
         <p>Skills</p>
       </div>
@@ -18,9 +18,9 @@ export const Skills = () => {
           <i className="nes-mario"></i>
           <i className="nes-icon coin is-large"></i>
         </div>
-        
 
-        <div className={darkTheme === true ? 'skills__nes-container nes-container with-title is-centered skills__container-tools is-dark' : 'skills__nes-container nes-container with-title is-centered skills__container-tools'}>
+
+        <div className={darkTheme ? 'skills__nes-container nes-container with-title is-centered skills__container-tools is-dark' : 'skills__nes-container nes-container with-title is-centered skills__container-tools'}>
           <p className="title">Main Tools</p>
           <div className='skills__container-images'>
             <div className='skills__logo'>
@@ -42,7 +42,7 @@ export const Skills = () => {
       </div>
 
 
-      <div className={darkTheme === true ? 'skills__nes-container nes-container with-title is-centered skills__container-tools is-dark' : 'skills__nes-container nes-container with-title is-centered skills__container-tools'}>
+      <div className={darkTheme ? 'skills__nes-container nes-container with-title is-centered skills__container-tools is-dark' : 'skills__nes-container nes-container with-title is-centered skills__container-tools'}>
         <p className="title">Libraries/Frameworks</p>
         <div className='skills__container-images'>
           <div className='skills__logo'>
@@ -59,7 +59,7 @@ export const Skills = () => {
       </div>
 
 
-      <div className={darkTheme === true ? 'skills__nes-container nes-container with-title is-centered skills__container-tools is-dark' : 'skills__nes-container nes-container with-title is-centered skills__container-tools'}>
+      <div className={darkTheme ? 'skills__nes-container nes-container with-title is-centered skills__container-tools is-dark' : 'skills__nes-container nes-container with-title is-centered skills__container-tools'}>
         <p className="title">Test</p>
         <div className='skills__container-images'>
           <div className='skills__logo'>
@@ -75,7 +75,7 @@ export const Skills = () => {
         </div>
       </div>
 
-      <div className={darkTheme === true ? 'skills__nes-container nes-container with-title is-centered skills__container-tools is-dark' : 'skills__nes-container nes-container with-title is-centered skills__container-tools'}>
+      <div className={darkTheme ? 'skills__nes-container nes-container with-title is-centered skills__container-tools is-dark' : 'skills__nes-container nes-container with-title is-centered skills__container-tools'}>
         <p className="title">Other Tools</p>
         <div className='skills__container-images'>
           <div className='skills__logo'>
@@ -105,7 +105,7 @@ export const Skills = () => {
 
         </div>
       </div>
-      <p className={darkTheme === true ? 'text-dark-theme' : ''}>and more...</p>
+      <p className={darkTheme ? 'text-dark-theme' : ''}>and more...</p>
     </div>
 
   )

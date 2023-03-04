@@ -32,12 +32,12 @@
     gap: 5px;
 }
 
-.projects__project-container-black-border{
+.projects__project-container-black-border {
     border: 2px solid black;
     transition-duration: 1s;
 }
 
-.projects__project-container-white-border{
+.projects__project-container-white-border {
     border: 2px solid white;
     transition-duration: 1s;
 }
@@ -56,7 +56,6 @@
     display: flex;
     justify-content: center;
 }
-
 
 #projects__exchange-house-container p {
     font-size: 15px;

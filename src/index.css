@@ -29,20 +29,20 @@ body {
     gap: 30px;
 }
 
-.text-dark-theme{
+.text-dark-theme {
     color: white;
     transition-duration: 1s;
 }
 
 @media (max-width: 974px) {
-    
-    body{
+
+    body {
         width: 99%;
     }
 }
 
 @media (max-width: 1040px) {
-    #root{
+    #root {
         width: 100vw;
     }
 }
